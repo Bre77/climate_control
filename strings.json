@@ -1,0 +1,29 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]"
+        },
+        "abort": {
+            "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "climate_entity": "Climate entity",
+                    "areas": "Areas",
+                    "guided": "Hide unrelated entities"
+                },
+                "description": "Select the climate entity and areas for each zone.",
+                "title": "Setup"
+            },
+            "zone": {
+                "data": {
+                    "cover_entity": "Damper Cover entity",
+                    "sensor_entity": "Temperature Sensor entity"
+                },
+                "description": "Define the zones cover entity and temperature sensor entity.",
+                "title": "Zone Setup"
+            }
+        }
+    }
+}
