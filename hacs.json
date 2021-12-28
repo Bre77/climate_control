@@ -1,0 +1,6 @@
+{
+    "name": "Climate Control",
+    "content_in_root": true,
+    "domains": ["climate"],
+    "render_readme": true
+  }
